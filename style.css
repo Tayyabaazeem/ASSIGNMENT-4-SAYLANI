@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+#header-img{
+background: url(images/header.jpg) no-repeat center; 
+-webkit-background-size: cover;
+background-size: cover;
+height:650px;     
+padding-right: 0px; 
+ padding-left: 0px; 
+ position: relative;
+}
+#header-content{
+padding-right: 0px; 
+ padding-left: 0px;
+ margin:0% 10% 0% 10%;
+ position: absolute;
+ bottom: 25%;
+ left:25%;
+}
+#header-content h3{
+color: white;
+font-weight:lighter; 
+}
+#header-content h1{
+color: white;
+}
+#header-content p{
+color: white;
+}
+#about-content{
+margin:0% 10%;
+margin-top:80px;
+}
+#quality-content h5{
+color: grey;
+font-size: 15px;
+}
+#quality-content h2{
+font-size: 45px;
+font-weight: bold;
+}
+#quality-content h3{
+color:#A707AF;
+font-weight: bold;
+font-size: 40px;
+}
+#quality-content p{
+font-size: 18px;
+line-height: 2em;
+}
+#about-img{
+background: url(images/quality.jpg) no-repeat center; 
+-webkit-background-size: cover;
+background-size: cover;
+height: 300px;
+-webkit-box-shadow: 28px -27px 10px 12px rgba(235,232,235,0.73);
+-moz-box-shadow: 28px -27px 10px 12px rgba(235,232,235,0.73);
+box-shadow: 28px -27px 10px 12px rgba(235,232,235,0.73);
+}
+#project{
+margin:0% 10%;
+margin-top:80px;
+}
+#project h3{
+font-size: 30px;
+}
+#project1{
+background: url(images/project1.jpg) no-repeat center; 
+-webkit-background-size: cover;
+background-size: cover;
+height:500px;
+margin:15px  20px 15px 0px;
+opacity: 0.5;
+position: relative;
+}
+#project1 span{
+position:absolute;
+bottom:0;
+right:0;
+color:white;
+}
+#project1 span h3{
+font-size:20px;
+}
+#project1:hover{
+opacity: 1;
+}
+#project2{
+background: url(images/project2.jpg) no-repeat center; 
+-webkit-background-size: cover;
+background-size: cover;
+height:500px;
+margin:15px 25px;
+position: relative;
+}
+#project2 span{
+position:absolute;
+bottom:0;
+right:0;
+color:white;
+}
+#project2 span h3{
+font-size:20px;
+}
+#project3{
+background: url(images/project3.jpg) no-repeat center; 
+-webkit-background-size: cover;
+background-size: cover;
+height:500px;
+opacity: 0.5;
+margin:15px 0px 15px 20px;
+position: relative;
+}
+#project3 span{
+position:absolute;
+bottom:0;
+right:0;
+color:white;
+}
+#project3 span h3{
+font-size:20px;
+}
+#project3:hover{
+opacity: 1;
+}
+
+#service{
+margin:0% 10%;
+margin-top:50px;
+}
+#service h2{
+font-weight: 1000px;
+font-size:45px;
+}
+#service p{
+margin-top: 10px;
+font-size:18px;
+}
+#service-spacing{
+margin: 40px 0px;
+}
+#bg-img{
+
+
+padding:30px;
+}
+#bg-img h5{
+color:#A707AF;
+font-weight: 1000px;
+font-size:25px;
+
+}
+#bg-img p{
+
+font-weight: bold;
+font-size:15px;
+
+}
+#bg-img:hover{
+opacity: 1;
+}
+#msg-content{
+-webkit-box-shadow: -14px -11px 5px 0px rgba(10,5,5,0.17);
+-moz-box-shadow: -14px -11px 5px 0px rgba(10,5,5,0.17);
+box-shadow: -14px -11px 5px 0px rgba(10,5,5,0.17);
+padding:50px;
+}
+
+#msg-content label{
+color:grey;
+}
+#input-feild input{
+border-bottom:1px solid grey;
+margin-bottom: 35px;
+}
+#input-feild textarea{
+border-bottom:1px solid grey;
+
+}
+#contact-us h2{
+margin:40px 0px 10px 0px;
+font-weight: 600px;
+font-size:50px;
+}
+#contact-us p{
+margin:20px 0px 50px 0px;
+}
+#contact-info{
+background-color: #A707AF;
+color:white;
+padding:50px;
+}
+
+
+#footer{
+background-color: #1F1F1F;
+margin:70px 0px 0px 0px;
+padding:3% 10%;
+}
+
+#quick-link{
+color:grey;
+}
+#quick-link hr{
+display: block;
+border: 0;
+border-top: 4px solid #A707AF;
+margin: 1em 0;
+}
+#quick-link a{
+text-decoration: none;
+color:grey;
+}
+#other{
+color: grey;
+}
+#other hr{
+
+display: block;
+border: 0;
+border-top: 4px solid #A707AF;
+margin: 1em 0;
+
+}
+#other a{
+text-decoration: none;
+color:grey;
+}
+#address{
+color:grey;
+}
+#address hr{
+display: block;
+border: 0;
+border-top: 4px solid #A707AF;
+margin: 1em 0;
+}
+#address a{
+text-decoration-color: white;
+
+color:white;
+}
+#news-letter{
+color: grey;
+}
+#news-letter hr{
+display: block;
+border: 0;
+border-top: 4px solid #A707AF;
+margin: 1em 0;
+}
+#news-letter input{
+background-color: transparent;
+border-bottom: 1px solid grey;
+height:35px;
+margin:5px 0px;
+}
+/*Order page Css */
+#form-container{
+    padding: 40px 10%;
+}
+#form-container input{
+    border:0px;
+    border-bottom: 1px solid grey;
+}
+#form-container input:focus{
+    background-color: white;
+}
+
+
+
+
+
+
+/* End of Order page Css */
+/*service page*/
+#driway{
+background: url(images/driway.jpg) no-repeat center; 
+-webkit-background-size: cover;
+background-size: cover;
+height:200px;
+}
+#roofing{
+    background: url(images/roofing.jpg) no-repeat center; 
+    -webkit-background-size: cover;
+    background-size: cover;
+    height:200px;
+    }
+#external{
+        background: url(images/external.jpg) no-repeat center; 
+        -webkit-background-size: cover;
+        background-size: cover;
+        height:200px;
+        }
